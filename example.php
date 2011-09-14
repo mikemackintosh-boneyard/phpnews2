@@ -1,11 +1,6 @@
 <?php
 echo 'Hello!';
-$class = new (int) Class($hello, __class__, array('More' => 'Bar'));
-
-define('IN', 'OUT');
-
-echo IN;
-$a[]='d;';
+$class = new Class($hello, __class__, array('More' => 'Bar'));
 
 public function var(){
   
